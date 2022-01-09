@@ -2,3 +2,17 @@
   text-align: center;
 }
 
+.App footer {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.App footer a {
+  color: rgb(80, 175, 192);
+  text-decoration: none;
+}
+
+.App footer a:hover {
+  color: rgb(165, 172, 156);
+  text-decoration: underline;
+}
