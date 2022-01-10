@@ -3,15 +3,63 @@
   max-width: 500px;
   min-height: 400px;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
   border-radius: 10px 70px 10px 70px;
 }
 
 .Weather .conditions li {
   font-size: 13px;
+
   text-align: left;
+}
+
+.Weather .overview {
+  margin: 0;
+  padding: 0;
 }
 
 .Weather li {
   list-style: none;
+}
+
+.Weather h1 {
+  font-size: 27px;
+}
+
+.Weather .temp {
+  font-weight: bold;
+  font-size: 38px;
+  position: relative;
+  top: 9px;
+}
+
+.Weather img {
+  padding: 15px;
+}
+
+.Weather form {
+  padding: 18px 18px;
+  display: flex;
+}
+
+.Weather input {
+  max-width: 330px;
+  margin-right: 10px;
+}
+
+.Weather .btn {
+  border: 1px solid rgb(5, 174, 204);
+  background: rgb(5, 174, 204);
+}
+
+.Weather .btn:hover {
+  color: rgb(5, 174, 204);
+  background: rgb(216, 243, 243);
+}
+
+.Weather .unit {
+  margin: 5px;
+  position: relative;
+  bottom: 7px;
+  font-size: 18px;
 }
