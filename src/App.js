@@ -7,8 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        
-        <Weather />
+        <Weather defaultCity="Taipei City" />
         <footer>
           <a
             href="https://github.com/HHJ121/dandelion-weather-react-application"

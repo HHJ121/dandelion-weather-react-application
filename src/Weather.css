@@ -34,13 +34,14 @@
 }
 
 .Weather img {
-  padding: 15px;
+  padding:  8px;
   width: 75px;
   height: 75px;
+  margin: 0;
 }
 
 .Weather form {
-  padding: 18px 18px;
+  padding: 18px;
   display: flex;
 }
 
