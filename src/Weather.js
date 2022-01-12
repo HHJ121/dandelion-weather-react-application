@@ -18,7 +18,7 @@ export default function Weather(props) {
       wind: Math.round(response.data.wind.speed),
       humidity: response.data.main.humidity,
       description: response.data.weather[0].description,
-      icon: "https://assets.msn.com/bundles/v1/weather/latest/ClearNightV3.svg",
+      icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
