@@ -30,14 +30,14 @@
   font-weight: bold;
   font-size: 38px;
   position: relative;
-  top: 9px;
+ bottom: 30px;
 }
 
-.Weather img {
+.Weather canvas {
   padding:  8px;
-  width: 75px;
-  height: 75px;
-  margin: 0;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
 }
 
 .Weather form {
@@ -64,6 +64,6 @@
 .Weather .unit {
   margin: 5px;
   position: relative;
-  bottom: 5px;
+  bottom: 42px;
   font-size: 18px;
 }
