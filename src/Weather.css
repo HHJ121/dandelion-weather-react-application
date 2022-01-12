@@ -30,14 +30,17 @@
   font-weight: bold;
   font-size: 42px;
   position: relative;
-  bottom: 30px;
+  left: 60px;
+  bottom: 82px;
 }
 
 .Weather canvas {
-  padding: 8px 5px 10px 0px;
+  padding: 5px 5px 10px 0px;
   width: 65px;
   height: 70px;
   margin: 5px 0px;
+  position: relative;
+  right: 25px;
 }
 
 .Weather form {
@@ -64,6 +67,16 @@
 .Weather .unit {
   margin: 5px;
   position: relative;
-  bottom: 42px;
+  bottom: 95px;
+  left: 60px;
   font-size: 18px;
+}
+
+.Weather .unit a {
+  text-decoration: none;
+}
+
+.Weather .unit a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 144);
 }
