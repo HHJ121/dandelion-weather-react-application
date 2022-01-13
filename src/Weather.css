@@ -30,17 +30,12 @@
   font-weight: bold;
   font-size: 45px;
   position: relative;
-  left: 60px;
-  bottom: 82px;
+  left: 73px;
+  bottom: 75px;
 }
 
 .Weather canvas {
-  padding: 5px 5px 10px 0px;
-  width: 60px;
-  height: 65px;
-  margin: 5px 0px;
-  position: relative;
-  right: 25px;
+  margin-top: 10px;
 }
 
 .Weather form {
@@ -68,7 +63,7 @@
   margin: 5px;
   position: relative;
   bottom: 95px;
-  left: 60px;
+  left: 70px;
   font-size: 18px;
 }
 

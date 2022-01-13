@@ -7,12 +7,12 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <h1>{props.data.city}</h1>
+      <h1 className="text-center">{props.data.city}</h1>
       <ul className="overview">
-        <li>
+        <li className="text-center">
           <FormatDate date={props.data.date} />
         </li>
-        <li className="text-capitalize">{props.data.description}</li>
+        <li className="text-capitalize text-center">{props.data.description}</li>
       </ul>
       <div className="row">
         <div className="col-4 conditions">
@@ -23,7 +23,7 @@ export default function WeatherInfo(props) {
         </div>
 
         <div className="col-4">
-          <WeatherIcon iconCode={props.data.icon} />
+          <WeatherIcon iconCode={props.data.icon} size={70} />
           
           <WeatherTemperature celsius={props.data.temperature} />
           
