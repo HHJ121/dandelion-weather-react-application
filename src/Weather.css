@@ -5,11 +5,11 @@
   display: block;
   margin: 10px auto;
   border-radius: 10px 70px 10px 70px;
+  color:rgb(1, 41, 48);
 }
 
 .Weather .conditions li {
   font-size: 13px;
-
   text-align: left;
 }
 
@@ -30,8 +30,8 @@
   font-weight: bold;
   font-size: 45px;
   position: relative;
-  left: 73px;
-  bottom: 75px;
+  left: 5px;
+  bottom: 20px;
 }
 
 .Weather canvas {
@@ -62,8 +62,9 @@
 .Weather .unit {
   margin: 5px;
   position: relative;
-  bottom: 95px;
-  left: 70px;
+  bottom: 40px;
+  left: 5px;
+ 
   font-size: 18px;
 }
 

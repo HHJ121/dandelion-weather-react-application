@@ -12,7 +12,9 @@ export default function WeatherInfo(props) {
         <li className="text-center">
           <FormatDate date={props.data.date} />
         </li>
-        <li className="text-capitalize text-center">{props.data.description}</li>
+        <li className="text-capitalize text-center">
+          {props.data.description}
+        </li>
       </ul>
       <div className="row">
         <div className="col-4 conditions">
@@ -22,11 +24,9 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
 
-        <div className="col-4 pt-3">
+        <div className="col-6 p-2">
           <WeatherIcon iconCode={props.data.icon} size={70} />
-          
           <WeatherTemperature celsius={props.data.temperature} />
-          
         </div>
       </div>
     </div>
